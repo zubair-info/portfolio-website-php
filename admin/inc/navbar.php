@@ -191,7 +191,8 @@ $after_assoc_user = mysqli_fetch_assoc($db_from);
                 </li>
                 <li class="nav-item">
                     <a href="about.php" class="nav-link">
-                        <i class="nav-icon fas fa-copy"></i>
+                        <!-- <i class="nav-icon fas fa-copy"></i> -->
+                        <i class="nav-icon fas  fa-address-card"></i>
                         <p>
                             About
                             <!-- <span class="right badge badge-danger">New</span> -->
@@ -201,7 +202,9 @@ $after_assoc_user = mysqli_fetch_assoc($db_from);
                 <!-- service start -->
                 <li class="nav-item">
                     <a href="#" class="nav-link">
-                        <i class="nav-icon fab fa-servicestack"></i>
+                        <!-- <i class="nav-icon far fa-circle text-info"></i> -->
+                        <i class="nav-icon fas fa-solid fa-book"></i>
+
                         <p>
                             My Skills
                             <i class="right fas fa-angle-left"></i>
@@ -232,7 +235,8 @@ $after_assoc_user = mysqli_fetch_assoc($db_from);
 
                 <li class="nav-item">
                     <a href="education.php" class="nav-link">
-                        <i class="nav-icon fas fa-info-circle"></i>
+                        <!-- <i class="nav-icon fas fa-info-circle"></i> -->
+                        <i class="nav-icon fas fa-solid fa-graduation-cap"></i>
                         <p>
                             Education
                             <!-- <span class="right badge badge-danger">New</span> -->
@@ -251,7 +255,8 @@ $after_assoc_user = mysqli_fetch_assoc($db_from);
                 </li>
                 <li class="nav-item">
                     <a href="service.php" class="nav-link">
-                        <i class="nav-icon fas fa-info-circle"></i>
+                        <i class="nav-icon fab fa-servicestack"></i>
+
                         <p>
                             Service
                             <!-- <span class="right badge badge-danger">New</span> -->
@@ -284,7 +289,9 @@ $after_assoc_user = mysqli_fetch_assoc($db_from);
                 <!-- Funfact End -->
                 <li class="nav-item">
                     <a href="#" class="nav-link">
+
                         <i class="nav-icon fab fa-servicestack"></i>
+
                         <p>
                             Portfolio
                             <i class="right fas fa-angle-left"></i>
