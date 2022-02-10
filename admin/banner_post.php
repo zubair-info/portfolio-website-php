@@ -16,14 +16,14 @@ if (isset($_POST['submit'])) {
     $banner_image = $_FILES['banner_image'];
 
 
-    if (empty($banner_title_one)) {
-        $_SESSION['banner_title_one'] = "Banner Title One Requried";
+    if (empty($banner_sub_title)) {
+        $_SESSION['banner_sub_title'] = "Banner Title One Requried";
         header('location: banner.php');
     } elseif (empty($banner_title_two)) {
-        $_SESSION['banner_title_two'] = "Banner Title One Requried";
+        $_SESSION['banner_title_two'] = "Banner Title Two Requried";
         header('location: banner.php');
-    } elseif (empty($banner_sub_title)) {
-        $_SESSION['banner_sub_title'] = "Banner Title One Requried";
+    } elseif (empty($banner_title_one)) {
+        $_SESSION['banner_title_one'] = "Banner Title One Requried";
         header('location: banner.php');
     } elseif (empty($banner_detail)) {
         $_SESSION['banner_detail'] = "Banner Title One Requried";
